@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[products] (
+    [productId]   INT           NOT NULL,
+    [productName] VARCHAR (50)  NULL,
+    [productCode] VARCHAR (50)  NULL,
+    [releaseDate] VARCHAR (MAX) NULL,
+    [price]       FLOAT (53)    NULL,
+    [description] VARCHAR (MAX) NULL,
+    [starRating]  FLOAT (53)    NULL,
+    [imageUrl]    VARCHAR (MAX) NULL,
+    PRIMARY KEY CLUSTERED ([productId] ASC)
+);
+
+
+
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (1, N'Leaf Rake', N'GDN-0011', N'March 19,  2016', 19.95, N'Leaf rake with 48-inch wooden handle', 4.5, N'https://rsastorageacc.blob.core.windows.net/images/Anonymous_Leaf_Rake.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (2, N'Garden Cart', N'GDN-0122', N'January 14, 2018', 50.8, N'15 gallon capacity rolling garden cart', 3.7, N'https://rsastorageacc.blob.core.windows.net/images/garden_cart.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (5, N'Hammer', N'GDN-0022', N'April 04,  2018', 99.94, N'Curved claw steel hammer', 4.5, N'https://rsastorageacc.blob.core.windows.net/images/rejon_Hammer.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (6, N'Saw', N'SAW-0033', N'Febuary 13, 2017', 34.02, N'15-inch steel blade hand saw', 2.2, N'https://rsastorageacc.blob.core.windows.net/images/egore911_saw.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (7, N'Video Game Controller', N'VID-0044', N'May 23, 2016', 40.21, N'Standard two-button video game controller', 3.6, N'https://rsastorageacc.blob.core.windows.net/images/xbox-controller_01.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (8, N'Nokia Lumia', N'NOK-0055', N'August 15, 2014', 80.47, N'Qualcomm SDM630 Snapdragon 630 Octa-core 2.2 GHz Cortex-A53 CPU ; 64GB ROM, 4GB RAM ; Supports microSD, up to 128 GB (uses SIM 2 slot) ; 3000 mAh battery.', 2.8, N'https://rsastorageacc.blob.core.windows.net/images/nokia.jpg')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (9, N'iPhone 7', N'IPH-0066', N'September 18, 2016', 100.5, N'4.7-inch touchscreen display with a resolution of 750 pixels by 1334 pixels at a PPI of 326 pixels per inch.Apple A10 Fusion chip with embedded M10 motion coprocessor 12-megapixel primary camera on the rear and a 7-megapixel front shooter for selfies.32GB of internal storage (expandable with iCloud)', 4.9, N'https://rsastorageacc.blob.core.windows.net/images/iphone.jpg')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (10, N'Desktop', N'DEK-0077', N'November 03, 2017', 90.99, N'7th Generation Intel Quad-Core i7-7700 3.60 GHz Processor (4 Cores 8 Threads, 8M Cache, up to 4.20 GHz).24 GB Dual Channel DDR4 at 2133MHz | 256GB Solid State Drive + 1TB (7200 RPM) SATA Hard Drive', 4.1, N'https://rsastorageacc.blob.core.windows.net/images/desktop.png')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (11, N'Cap', N'CAP-0088', N'December 25, 2014', 32.21, N'44% Polyester, 42% Nylon, 7% Cotton, 7% Spandex Imported Hand Wash Stretch fitted.  Structured front panels.Permacurv visor. Matching undervisor', 3.3, N'https://rsastorageacc.blob.core.windows.net/images/cap.jpg')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (12, N'Laptop', N'LAP-0099', N'June 20, 2013', 20.2, N'8th Generation Intel Core i7-8550U Processor (8MB Cache, up to 4.0 GHz), Windows 10 Pro (64-bit),32GB DDR4 2400MHz Memory, 1TB Solid State Drive, DVD Writer (Writes to CD/DVD)', 3.9, N'https://rsastorageacc.blob.core.windows.net/images/laptop.jpg')
+INSERT INTO [dbo].[products] ([productId], [productName], [productCode], [releaseDate], [price], [description], [starRating], [imageUrl]) VALUES (13, N'Laptop Bag', N'BAG-0010', N'July 13, 2015', 19.19, N'Shell-Protected Quick-Access Sunglass/Gadget Case.High-Grade Leather Handles and Accents', 4, N'https://rsastorageacc.blob.core.windows.net/images/bag.jpg')
